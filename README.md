@@ -12,7 +12,8 @@ By trying the [Flexbox Grid](http://flexboxgrid.com/) we saw the internal need t
 
 ### npm
 
-`npm i flexboxgrid-sass --save`
+`npm i pak11273/flexboxgrid-sass --save` or
+`yarn add pak11273/flexboxgrid-sass`
 
 ### bower
 
