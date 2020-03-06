@@ -47,6 +47,6 @@ $flexboxgrid-breakpoints:
   newbreakpoint 120rem;
 ```
 
-#### Milestones
+## Milestones
 
-[ ] Implement the existing PRs from the HugeInc repo.
+[x] Implement the existing PRs from the HugeInc repo.
