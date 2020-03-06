@@ -50,4 +50,5 @@ $flexboxgrid-breakpoints:
 
 ## Milestones
 
-[x] Implement the existing PRs from the HugeInc repo.
+[x] Implement the existing PRs from the HugeInc repo
+[ ] Transition Bower/Gulp to Webpack 4
