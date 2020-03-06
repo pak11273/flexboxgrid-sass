@@ -4,24 +4,15 @@ This library was maintained by [Huge Inc](https://www.hugeinc.com/) but was aban
 This work is an adaptation from the original [Flexbox Grid](http://flexboxgrid.com/) created by @kristoferjoseph.
 Grid based on the `flex` display property. [Check the documentation](http://hugeinc.github.io/flexboxgrid-sass)
 
-## About
-
-By trying the [Flexbox Grid](http://flexboxgrid.com/) we saw the internal need to a SASS version of it. Thanks to the good work of Kristopher Joseph, we forked his project and sassified it.
-
-## Install
-
-### npm
-
-`npm i pak11273/flexboxgrid-sass --save` or
-`yarn add pak11273/flexboxgrid-sass`
-
-### bower
-
-`bower install --save flexboxgrid-sass`
-
 ## Use
 
-To modify the Flexbox grid, declare the following variables on your layout .scss
+`Copy the flexboxgrid.scss into the sass directory of your project`
+
+`@import 'flexboxgrid'` from your main sass file.
+
+## Customize
+
+At the top of flexboxgrid.scss are all the variables you can customize:
 
 #### Set the number of columns you want to use on your layout.
 
@@ -51,4 +42,5 @@ $flexboxgrid-breakpoints:
 ## Milestones
 
 [x] Implement the existing PRs from the HugeInc repo
-[ ] Transition Bower/Gulp to Webpack 4
+
+[x] Remove Bower/Gulp
